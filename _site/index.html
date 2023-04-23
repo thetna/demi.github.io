@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>1st Workshop in Data Engineering in Medical Imaging (DEMI) @ MICCAI 2023  </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" sizes="(max-width: 150px) 150px,
+    (max-width: 150px)" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#C70039">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="icon" type="image/png" href="/assets/images/demi_logo2.png">
+  <body>
+
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <header class="page-header" role="banner">
+        <div>
+          <h1 class="project-name">Data Engineering in Medical Imaging (DEMI) </h1>
+          <img src="/assets/images/demi_logo2.png" alt="demi" style=”max-width:640px;max-height:320px;" class="page-header"/>
+        </div>  
+
+      <div class="row">
+        <img src="/assets/images/webpage/miccai2023-logo.png" alt="miccai2023-logo" style=”max-width:150px;max-height:150px;" id="hp"/>
+        <div class="column">
+        <h2 class="project-tagline"><MICCAI2023> DEMI @ MICCAI2023 Workshop, October, 2023 </h2>  
+        </div>
+        <div class="column">
+        <a href="#Workshop themes" class="btn"> <strong>Workshop Themes</strong></a>
+        <a href="#Keynote speakers" class="btn"> <strong>Keynote Speakers</strong></a>
+        <a href="#Important Dates" class="btn"> <strong>Important dates </strong></a>
+        <a href="#Submission" class="btn"> <strong>Submission</strong></a>
+        <a href="#Workshop sessions" class="btn"> <strong>Sessions/Agenda</strong></a>
+        </div>
+      </div>
+        </header>
+
+
+        <main id="content" class="main-content" role="main">
+
+
+        <h1 id="workshop-description">Workshop Description</h1>
+            <p align="justify">Recently, data engineering, by generating synthetic data, active learning, label and data augmentation and self-supervision, is getting traction in the medical imaging community and is slowly showing impacts in the different domains. However, the potential of these methods is not fully leveraged yet. A recent study on the quantification of data augmentation introduced affinity and diversity to measure the improvement in model generalization by augmentation. 
+              The study shows that both the augmentation's affinity and diversity need to be optimized to improve the model's generalization. Similarly, studies suggests that not every synthetic example improves the generalizability of the model but instead hurts the performance. Sub-sampling useful examples are crucial to improve performance. Also, the performance due to self-supervised learning methods on the downstream tasks is generally conditioned on overlapping the pretext task with the downstream tasks.
+               For e.g. a model trained on predicting a rotation angle is not going to be effective in Colons or other rotationally invariant organs. We witness various research efforts being made in the data engineering domain, most of them are often made in silos. 
+               And many research questions in data engineering remain open that are of utmost importance to the success of machine learning methods used for medical image analysis. For example:
+              - What kind of data to generate to train a model for a given medical task? 
+              How to identify the diverse and discriminative examples for a downstream task in complex biomedical datasets? For example, do we need to annotate every frame in a surgical video?
+              - How to Identify the correct augmentation policy rather than just employing random policies? For e.g. vertically flipping the lungs can label the right lung as the left lung. Similar issue arises in Chest X-ray too.
+              - Given a data labeling budget (time/money), what is the best way to spend it? For example, how much data should we collect and how much of it should we label? 
+              - How to learn to synthesize the data for a downstream medical task?
+              - How to design suitable pretext tasks based on the downstream medical task? 
+              - Overall, how can we blend these data-related works to get maximum benefit out of the data?
+              
+            </p>  
+            <p align="justify"> The workshop invites researchers to submit their work in the field of medical imaging around the central theme of data engineering.
+            </p>  
+
+
+            <h1 id="Workshop themes">Workshop themes</h1>
+            <ol> 
+              <li><p align="justify"> <strong>Data Augmentation and Label Augmentation in Medical Domain:</strong> This covers data augmentation by both geometric transformation and simulated data from Phantom and Generative models in the medical domain. It also investigates methods for learning application aware data augmentation policy. 
+              </p></li>
+              <li><p align="justify"> <strong>Active Learning and Active Synthesis:</strong>  This covers the methods to find the most discriminative and diverse subset of unlabelled data to train a model for various clinical applications. Active synthesis is about generating synthetic data which are relevant to the application taken into consideration. 
+              </p></li>
+              <li><p align="justify"> <strong>Self-Supervised Learning Algorithms for Medical Downstream Tasks:</strong> We investigate methods to design application specific relevant pre-text tasks for pre-training models in a self-supervised manner. Generic pre-trained tasks are rather sub-optimal to the end task. 
+              </p></li>
+          <h1 id="Keynote speakers">Keynote speakers</h1>
+          
+          TBD
+
+    
+    <h1 id="Important Dates">Important Dates</h1>
+    TBD
+    <!-- <p><strong>Paper submission begins:</strong> 2nd May 2023</p>
+    <p><strong>Submission deadline:</strong> <del> 25th</del> 30th June 2023 </p>
+    <p><strong>Paper decision notification:</strong> 16 July 2023</p>
+    <p><strong>Camera ready submission:</strong> 30 July 2023</p>
+    <p><strong>Workshop day:</strong> 22 October 2023</p> -->
+          
+    <h1 id="Submission">Submission</h1>
+    <p><strong>CMT submission website</strong>: TBD </p>
+    <p>Accepted papers will be published in a joint proceeding with the MICCAI 2023 conference. </p>
+    <p>All papers should be formatted according to the <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"> Lecture Notes in Computer Science templates</a>.</p>
+    <p><span lang="EN-US">We recommend<strong> submission up to 8-pages and 2-pages of references (same as MICCAI main conference) for a double-blind peer review process</strong></span></p>
+    <p>In addition, since the joint workshop has adhered to the <strong>double-blinded peer review process</strong>, we ask that you <strong>please follow the <a href="https://conferences.miccai.org/2023/en/PAPER-SUBMISSION-AND-REBUTTAL-GUIDELINES.html">MICCAI2023 anonymity guidelines</strong></a> when preparing your intial submission.</p>
+
+
+    <h1 id="Proceeding">Proceeding</h1>
+    <p align="justify"><span style="font-size: 12pt ;" style="padding: 20px;"><br />
+    <img src="/assets/images/webpage/LNCS-Logo.png" alt="LNCS" style="float:left" width="128" /> <p>Accepted papers will be published in LNCS as a separate DEMI 2023 (MICCAI Workshop), October 2023 proceeding </p>
+
+  
+
+<h1 id="Workshop sessions">Workshop Programme</h1>
+TBD
+
+      <h1 id="Organising committee">Organising committee</h1>
+        <table>
+          <tbody>
+            <tr>
+              <td><img src="/assets/images/organisers/binod.jpg" alt="Binod Bhattarai" width="300" id="hp2"/></td>
+              <td><img src="/assets/images/organisers/sharib_600_420.jpg" alt="Sharib Ali" width="300" id="hp2"/></td>
+              <td><img src="/assets/images/organisers/anita.jpg" alt="Anita Rau" width="300" id="hp2"/></td>
+            </tr>
+            <tr>
+              <td><a href="https://sites.google.com/view/bbinod">Binod Bhattarai</a><br />University of Aberdeen, UK</td>
+              <td><a href="https://eps.leeds.ac.uk/computing/staff/11465/dr-sharib-ali">Sharib Ali</a><br /> University of Leeds, UK </td>
+              <td><a href="https://scholar.google.com/citations?user=9D2d4o4AAAAJ&hl=en&oi=ao">Anita Rau</a><br />Stanford University, USA
+              </td>
+            </tr>
+            <tr>
+              <td><img src="/assets/images/organisers/anguyen.jpeg" alt="anguyen"  width="300" id="hp2"/></td>
+              <td><img src="/assets/images/organisers/ana.jpg" alt="ana-namburete" width="300" id="hp2"/></td>
+              <td><img src="/assets/images/organisers/Razvan.jpg" alt="Razvan Caramalau" width="300" id="hp2" /></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.csc.liv.ac.uk/~anguyen/">Anh Nguyen</a><br /> University of Liverpool, UK
+                </td>
+                <td><a href="https://www.pmb.ox.ac.uk/person/professor-ana-namburete">Ana Namburete</a><br /> University of Oxford, UK
+                </td>
+                <td><a href="https://scholar.google.com/citations?user=gndj6ksAAAAJ&hl=en&oi=ao">Razvan Caramalau</a><br /> University College London, UK
+            </tr>
+            <td><img src="/assets/images/organisers/Danail.jpg" alt="Danail Stoyanov" width="300" id="hp2" /></td>
+            <tr>
+              <td><a href="https://scholar.google.com/citations?user=gndj6ksAAAAJ&hl=en&oi=ao">Danail Stoyanov</a><br />University College London, UK
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       
+  <h1 id="Sponsors">Sponsors</h1>
+  We are seeking academic/industrial sponshorships. Please contact us for more details. 
+  
+    <p> Please contact us if you would like to offer an spornsorship for this event. </p>
+
+    <p> Contact DEMI team at: <a href="mailto:demiworkshop23@gmail.com">demiworkshop23@gmail.com</a></p>
+
+    <footer class="site-footer">
+        
+      <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+    </footer>
+        </main>
+    </body>
+</head>

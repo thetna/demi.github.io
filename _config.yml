@@ -1,0 +1,34 @@
+title: CaPTion Workshop @ MICCAI 2022
+description: MICCAI 2022 Workshop on "Cancer Prevention through early detecTion"
+show_downloads: true
+
+google_analytics:
+theme: jekyll-theme-cayman
+header: assets/images/caption.jpg
+
+plugins:
+  - jekyll-gist
+
+# Set default header image
+# header: yes
+# header_sm: assets/images/CaPTion_logo.png
+# header_med: assets/images/CaPTion_logo.png
+# header_large: assets/images/CaPTion_logo.png
+# header_xl: assets/images/CaPTion_logo.png
+
+## Thumbnailer taken from https://github.com/chrisanthropic/jekyll-minimagick
+
+# # Autogenerate thumbs for comics
+# mini_magick:
+
+# #Create Thumbs for the Archive Page
+#     thumbnail:
+#       source: images/comics/
+#       destination: /images/comics/thumbs
+#       resize: "182x280^"
+
+# #Autogenerate smaller size for small screens       
+#     small:
+#       source: images/comics/
+#       destination: /images/comics/small
+#       resize: "350x535^"
